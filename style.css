@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    margin: 50px 0px;
+    font-size: 30px;
+}
+
+.container #project{
+    display: flex;
+    justify-content: center;
+}
+
+.container #project ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container #project ul a li{
+    list-style: none;
+    margin-bottom: 50px;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(2, 65, 255);
+    transition: .3s;
+}
+
+.container #project ul a li:hover{
+    background-color: black;
+    transition: .5s
+}
